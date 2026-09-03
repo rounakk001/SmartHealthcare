@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.U2CoroutineExample">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.U2CoroutineExample"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".U1BottomSheet"
+            android:exported="false"
+            android:label="Bottom Sheet Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1PersistantBottomSheet"
+            android:exported="false"
+            android:label="Persistent Bottom Sheet Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1Dialog"
+            android:exported="false"
+            android:label="Dialog Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1AlertDialog"
+            android:exported="false"
+            android:label="Alert Dialog Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1LaunchedEffectPractical"
+            android:exported="false"
+            android:label="LaunchedEffect Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1DisposableEffectPractical"
+            android:exported="false"
+            android:label="DisposableEffect Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1SideEffectPractical"
+            android:exported="false"
+            android:label="SideEffect Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1ComposeAnimationAPIDemo"
+            android:exported="false"
+            android:label="Compose Animation Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1CustomComposable"
+            android:exported="false"
+            android:label="Custom Composable Demo"
+            android:theme="@style/Theme.U2CoroutineExample" />
+
+        <activity
+            android:name=".U1DoctorAppointment"
+            android:exported="true"
+            android:label="Smart Healthcare"
+            android:theme="@style/Theme.U2CoroutineExample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
